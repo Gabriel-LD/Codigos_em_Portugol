@@ -6,17 +6,18 @@ Algoritmo "semnome"
 // Data atual  : 29/08/2022
 Var
 // Seção de Declarações das variáveis 
- a:inteiro
- b:inteiro
- soma:inteiro
+a,b,c,d,p:real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-escreval("digite o valor de a: ")
-leia (a)
-escreval("digite o valor de b: ")
-leia (b)
-soma <- a+b
- escreva("A soma de ",a ," mais",b ," é: ")
- escreval(soma)
+escreva("Digite o valor do emprestimo: ")
+leia(a)
+b<-(a*20)/100
+c<-b+a
+escreval("digite as parcelas que queira pagar")
+leia(p)
+d<-c/p
+escreva("As parcelas do emprestimo sera de: ", d:5:2 )
+
+
 Fimalgoritmo
